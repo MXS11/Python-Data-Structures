@@ -7,6 +7,6 @@
 fname = input("Enter file name: ")
 fh = open(fname)
 for line in fh :
-    line = line.rstrip()
+    line = line.rstrip() #we use rstrip to get rid of the empty space between the lines
     x = line.upper()
     print(x)
